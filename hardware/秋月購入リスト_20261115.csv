@@ -1,0 +1,10 @@
+秋月コード,品名（秋月の表記）,使う場所,1枚に必要な数,買う数（販売単位）,価格(税込),商品ページ,備考
+113288,超小型単セル用リチウムイオン・リチウムポリマー充電コントローラー MCP73831-2ATI/OT,U2,1,1個,¥120,https://akizukidenshi.com/catalog/g/g113288/,
+106048,PchMOSFET IRLML2246TRPBF,Q1,1,1袋（10個入）,¥250,https://akizukidenshi.com/catalog/g/g106048/,
+104256,NchMOSFET 60V300mA 2N7002K,Q2,1,1袋（40個入）,¥200,https://akizukidenshi.com/catalog/g/g104256/,
+106419,赤色チップLED 2012 625nm 150mcd,D1,1,1袋（10個入）,¥150,https://akizukidenshi.com/catalog/g/g106419/,充電中に点灯
+106423,緑色チップLED 2012 525nm 400mcd,D2,1,1袋（10個入）,¥200,https://akizukidenshi.com/catalog/g/g106423/,充電完了で点灯
+116985,高速スイッチング・ダイオード 1N4148W,"D4,D5",2,1袋（40個入）,¥160,https://akizukidenshi.com/catalog/g/g116985/,SOD-123
+,,,,,合計 ¥1080,,
+,買わないもの（手持ちあり）：抵抗・コンデンサ（0805 キット）、SS14（D3）、タクトスイッチ（SW1）、スライドスイッチ（SW2）、ピンヘッダー。J4 は電池の線を直接はんだ付けするので不要,,,,,,
+,秋月に無いもの：Waveshare ESP32-S3-Matrix（スイッチサイエンス等）、LiPo 400mAh 保護回路付き（v4 と同じ電池）,,,,,,

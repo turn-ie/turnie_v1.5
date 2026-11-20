@@ -1,0 +1,40 @@
+board placement: X = 196.897 - x_KiCad, Y = y_KiCad -94.071, Z = z_STEP -3.524  (board F z -1.929, B z -3.529)
+leads behind the board are modelled cut to 0.8 mm (header tails, SW1, SW2, J4)
+
+1. acrylic bumps removed 1.618 mm3. outside unchanged vs V3: see the note in check_r2.py (case body identical to the 11:55 export)
+   bounding box r2 42.987 x 30.930 x 17.600, V3 42.987 x 30.930 x 17.600
+   volume V3 4989.452, holes filled +35.651, r2 4984.611
+
+2. intersections (mm3, > 1e-4):
+   none
+
+3. min distances (mm):
+   case - PCB                0.150
+   case - U1_pcb             1.409
+   case - U1_leds            3.786
+   case - U1_usbc            2.068
+   case - SW1                1.518
+   case - SW2                0.426
+   case - SW2_knob           0.159
+   case - SW2_knob_other_pos 0.160
+   case - HDR_pins           1.881
+   case - HDR_plastic        0.691
+   case - D3                 1.986
+   case - R5                 2.237
+   case - U1_antenna         9.730
+   battery - PCB             0.988
+   battery - HDR_pins        0.188
+   battery - SW1             0.188
+   battery - SW2             0.988
+   battery - PCB             0.988
+   battery - U1_antenna      4.130
+   battery - case     0.000
+
+4. SW2 knob: x 33.847..35.347 (other position 35.847..37.347), z -0.929..0.571; slot x 33.447..37.747 z -1.529..0.871, corners R0.8; tip 0.735 outside the wall (y -16.121, outer -15.386)
+5. USB-C: centre y 0.082 z -1.107 (V3 opening 11.0 x 4.0 centred y 0.000 z -1.130), mouth 3.604 inside the outer face
+6. LED tops z 3.013, acrylic ledge z 3.683 (gap 0.67); SW1 (5 mm tact) plunger top z 3.071 = 0.61 below the acrylic, centre (34.797, 8.529)
+   cap: x case 0.0000, x top plate 0.0000, x board 0.0000; to the hole wall 0.100 (hole phi 4.6, shaft phi 4.4); top z 9.071 = 3.088 above the rim
+7. back of the board z -3.529, battery top z -4.517: 0.988 for the cut leads and solder (0.8 modelled) and a sheet
+8. chip antenna z -0.387..0.613, 4.130 above the battery (same arrangement as V3: battery under the whole board)
+
+sanity: board +0.5 x (into the USB-C wall) vs case 1.342; board -0.2 x (into the ribs) vs case 0.194; battery +0.3 x vs case 0.000
