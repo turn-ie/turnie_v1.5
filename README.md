@@ -31,3 +31,7 @@ Waveshare **ESP32-S3-Matrix**（8x8 LED）に自作のシールド基板を重�
 - [turnie_device_v1.5](https://github.com/turn-ie/turnie_device_v1.5)：v1.5 のファームウェア（このリポジトリの `firmware/` は r2 基板向けの版）
 - [turnie_app](https://github.com/turn-ie/turnie_app)：iOS アプリ
 - [turnie_garber](https://github.com/turn-ie/turnie_garber)：初期のシールド基板のガーバー
+
+## 備考
+
+- 画像は KiCad の 3D ビュー（シールド基板 r2 ＋ ESP32-S3-Matrix）。
